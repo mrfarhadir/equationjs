@@ -1,0 +1,27 @@
+{
+  "name": "equationjs",
+  "version": "0.0.0",
+  "description": "mathmatical equations and it's methods ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "build": "tsc src/equation.ts && gulp unitTests && gulp copy",
+    "build:minify": "npm run build && gulp minify"
+  },
+  "keywords": [
+    "line",
+    "equation",
+    "algebra"
+  ],
+  "author": "Farhad Mehryari <info@mrfarhad.ir>",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "gulp": "^4.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jasmine": "^3.3.1",
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "typescript": "^3.3.3333"
+  }
+}
