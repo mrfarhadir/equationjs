@@ -1,6 +1,6 @@
 {
   "name": "equationjs",
-  "version": "0.0.0",
+  "version": "0.0.01",
   "description": "mathmatical equations and it's methods ",
   "main": "index.js",
   "scripts": {
