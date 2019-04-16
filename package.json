@@ -1,6 +1,6 @@
 {
   "name": "equationjs",
-  "version": "0.0.02",
+  "version": "0.0.021",
   "description": "mathmatical equations and it's methods ",
   "main": "index.js",
   "scripts": {
@@ -13,11 +13,13 @@
     "equation",
     "algebra"
   ],
+  "repository": "https://github.com/mrfarhadir/equationjs",
   "author": "Farhad Mehryari <info@mrfarhad.ir>",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.3",
     "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2",
     "jasmine": "^3.3.1",
     "jasmine-console-reporter": "^3.1.0",

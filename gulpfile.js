@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var Jasmine = require('jasmine');
 var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
 var jasmine = new Jasmine();
 
 function defaultTask(done) {
@@ -33,7 +34,10 @@ function unitTests(done) {
 function minify(done) {
     gulp.src('./dist/*.js')
        .pipe(uglify())
-       .pipe(gulp.dest('dist/minified/'))
+       .pipe(rename({
+            suffix: '.min'
+        }))
+       .pipe(gulp.dest('dist/'))
     done()
 }
  
